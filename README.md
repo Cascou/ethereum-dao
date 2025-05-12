@@ -6,6 +6,27 @@ The aim of this project is to implement a decentralized governance system using 
 This projects demonstrates a functional DAO (Decentralized Autonomous Organization) that allows token holders to participate in governane through snapshot-based voting to change the value held in the "Box.sol" contract. 
 Basic implementation of an on-chain ethereum dao.
 
+## 📦 Installation
+1. Clone the repository
+   ```
+   git clone https://github.com/Cascou/ethereum-dao
+   cd ethereum-dao
+   ```
+2. Install dependencies
+   ```
+   npm install
+   ```
+3. Compile Contracts
+   ```
+   npx hardhat compile
+   ```
+## 🚀 Deploy Contracts
+1. Run deployment script
+   ```
+   npx hardhat run ignition/module/{file}.js --network Sepolia
+   ```
+   
+
 ## 💻 Tech Stack
 - Solidity: Smart contract development
 - OpenZeppelin Contracts: Secure modular implementations for:
@@ -41,7 +62,7 @@ Notes:
  - Use Tally to register DAO.
 
 ## 📚 Resources
- - OpenZeppelin Governor Docs
- - Inspired by: DAO Template by PatrickAlphaC
- - Tally
- - Safe
+ - [OpenZeppelin Governor Docs](https://docs.openzeppelin.com/contracts/4.x/api/governance)
+ - Inspired by: [DAO Template by PatrickAlphaC](https://github.com/PatrickAlphaC/dao-template)
+ - [Tally](https://www.tally.xyz/)
+ - [Safe](https://safe.global/)
