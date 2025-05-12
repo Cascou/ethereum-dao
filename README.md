@@ -23,7 +23,7 @@ Basic implementation of an on-chain ethereum dao.
 ## 🚀 Deploy Contracts
 1. Run deployment script
    ```
-   npx hardhat run ignition/module/{file}.js --network Sepolia
+   npx hardhat run ignition/module/{file}.js --network sepolia
    ```
    
 
@@ -55,10 +55,10 @@ Notes:
 - Network Sepolia
 - Governor contract exceeds contract length, run optimizer.
 - Deployment order (parameters)
-    - Timelock {minDelay, propsers, executors, admin}
-    - DAOToken 
-    - Box {Timelock address}
-    - Governor {Token address, Timelock address}
+    - ```Timelock {minDelay, propsers, executors, admin}```
+    - ```DAOToken```
+    - ```Box {Timelock address}```
+    - ```Governor {Token address, Timelock address}```
  - Use Tally to register DAO.
 
 ## 📚 Resources
