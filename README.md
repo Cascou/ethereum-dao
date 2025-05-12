@@ -1,1 +1,3 @@
-# ethereum-dao (to be updated)
+# Ethereum DAO
+####
+####
