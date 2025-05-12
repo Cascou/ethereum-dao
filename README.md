@@ -9,16 +9,17 @@ Basic implementation of an on-chain ethereum dao.
 ## 💻 Tech Stack
 - Solidity: Smart contract development
 - OpenZeppelin Contracts: Secure modular implementations for:
-  - Governor
-  - ERC20Votes
-  - TimelockController
+  - ```Governor```
+  - ```ERC20Votes```
+  - ```TimelockController```
 - Hardhat: Development environment
 - Javascript: Deployment Scripts.
 - Tally: Frontend, to create, queue & execute proposals.
 
 ## 📁 Project Structure
+```
 ├── contracts/
-│   ├── Box.sol                # Box contract 
+│   ├── Box.sol                # Box contract
 │   ├── DAOGovernor.sol        # Governor contract
 │   ├── DAOToken.sol           # ERC20Votes-compatible token
 │   └── Timelock.sol           # TimelockController
@@ -28,7 +29,7 @@ Basic implementation of an on-chain ethereum dao.
 │   ├── DAOToken.js            # Deployment script
 │   └── Timelock.js            # Deployment script
 ├── hardhat.config.ts          # Hardhat configuration
-
+```
 Notes:
 - Network Sepolia
 - Governor contract exceeds contract length, run optimizer.
